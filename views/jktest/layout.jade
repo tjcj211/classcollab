@@ -1,0 +1,8 @@
+extends ..\layout
+
+block append head
+    link(rel='stylesheet', href='/stylesheets/' + username + '.css')
+
+block content
+    p some stuff
+    block subcontent
