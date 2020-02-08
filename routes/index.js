@@ -1,7 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-var users = ['jktest', 'jktest2', 'jktest3'];
+var users = [
+  'jktest','jktest2','jktest3',
+  'jcbryce', 'hcbyrd', 'macallahan1', 'rmclark', 'tacouto', 'thdao', 'tddegennaro', 'hdominique', 'jeduffy', 'ajetienne', 'mforster', 'jmgaliano', 'gagreco', 'rhanif', 'jrmannarino', 'amartin1', 'jepassanante', 'rpetrosino', 'asazhin', 'jzemlanicky'
+];
+users.sort();
 
 // Home page
 router.get('/', function(req, res, next) {
