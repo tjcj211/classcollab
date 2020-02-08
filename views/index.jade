@@ -2,4 +2,12 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p.intro
+    | Welcome to the #{title}.
+    | Below you should see your username, which will link you to
+    | your section of the application.
+
+  ul
+    each user in users
+      li
+        a(href='/' + user)= user
