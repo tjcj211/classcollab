@@ -7,6 +7,13 @@ module.exports = function(router, username) {
          username: username
       });
   });
-
+  router.get('/' + username + '/second', function(req, res, next) {
+    res.render(
+      username + '/second', 
+      {
+         title: username + '\'s Second Page',
+         username: username
+      });
+  });
   // Set up additional routes here
 };
