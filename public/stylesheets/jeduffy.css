@@ -1,1 +1,5 @@
 /* Put any user-specific styles here */
+p {
+  color: blue;
+  font-size: large;
+}
