@@ -1,1 +1,7 @@
 /* Put any user-specific styles here */
+body, a {
+    background-color: black;
+    color: green;
+    max-width: 500px;
+    margin: auto;
+}
