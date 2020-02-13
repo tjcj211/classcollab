@@ -8,5 +8,12 @@ module.exports = function(router, username) {
       });
   });
 
-  // Set up additional routes here
+  router.get('/jzemlanicky/another', function(req, res, next) {
+    res.render(
+      username + '/another', 
+      {
+         title: username + '\'s Second Page',
+         username: username
+      });
+  });
 };
