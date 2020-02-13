@@ -7,6 +7,12 @@ module.exports = function(router, username) {
          username: username
       });
   });
-
-  // Set up additional routes here
+  router.get('/' + username + "/projects", function(req, res, next) {
+    res.render(
+      username + '/projects', 
+      {
+         title: username + '\'s Projects',
+         username: username
+      });
+  });
 };
