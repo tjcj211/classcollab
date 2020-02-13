@@ -49,13 +49,9 @@
   filter: blur(10px);
  }
 
-h2{
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
 
 h2{
-  padding-top: 12px;
+  padding-top: 50px;
   padding-bottom: 12px;
   color: white;
 }
@@ -64,4 +60,26 @@ p {
   padding-top: 12px;
   padding-bottom: 12px;
   color: white;
+}
+
+#title {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+li {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+}
+
+button {
+  font-family: Lucida, sans-serif;;
+  background-color: green;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 600px;
 }
