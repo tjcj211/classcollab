@@ -1,1 +1,8 @@
 /* Put any user-specific styles here */
+
+body
+{
+    background-color:lightgray;
+    color:black;
+    padding-left:300px;
+}
