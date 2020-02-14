@@ -94,7 +94,7 @@ const SpotifyAPI = {
     authorize: () => {
         // Client ID isn't sensitive. This authorization is entirely client-side,
         // if you wanted to use backend authorization, you'd need a client secret.
-        const CLIENT_ID = 'cbd004150cb0442e80bb38b6e8591ca4&';
+        const CLIENT_ID = 'cbd004150cb0442e80bb38b6e8591ca4';
         const REDIRECT_URI = 'https://qucollab.herokuapp.com/rpetrosino';
         const SCOPES = ['user-top-read'].join(' ');
 
