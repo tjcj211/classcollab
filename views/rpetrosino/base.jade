@@ -1,5 +1,16 @@
 extends layout
 
 block subcontent
-  h1= title
-  p Welcome to #{title}
+    div
+        div(id="sign-in")
+            h1 Hey 
+            h2 Why not log in with Spotify?
+            input(type="button", value="Log in with Spotify", id="login-button") 
+            a(href='/rpetrosino/woah') Or you can check out this other page if you don't use spotify
+        div(id="signed-in")
+            h1(class="header") Good job, you passed, 
+                span(id="username") 
+            h1(class="label") Top Tracks Lately
+            ul(id="top-tracks")
+            h1(class="label") Top Artists Lately
+            ul(id="top-artists")
