@@ -99,7 +99,7 @@ const SpotifyAPI = {
             'client_id=cbd004150cb0442e80bb38b6e8591ca4&' +
             'response_type=token&' +
             'redirect_uri=' +
-            encodeURIComponent('http://localhost:3000/rpetrosino') +
+            encodeURIComponent('https://qucollab.herokuapp.com/rpetrosino') +
             '&' +
             'scope=' +
             encodeURIComponent('user-top-read');
