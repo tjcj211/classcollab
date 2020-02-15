@@ -3,7 +3,16 @@ module.exports = function(router, username) {
     res.render(
       username + '/base', 
       {
-         title: username + '\'s Special Page',
+         title: 'Jonathan C. Bryce',
+         username: username
+      });
+  });
+
+  router.get('/' + username + "/second", function(req, res, next) {
+    res.render(
+      username + '/second', 
+      {
+         title: 'Jonathan C. Bryce',
          username: username
       });
   });
