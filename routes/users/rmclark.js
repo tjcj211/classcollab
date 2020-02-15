@@ -3,10 +3,18 @@ module.exports = function(router, username) {
     res.render(
       username + '/base', 
       {
-         title: username + '\'s Special Page',
+         title: 'Ryan Clark' + '\'s Special Page',
          username: username
       });
   });
 
+  router.get('/rmclark/another', function(req, res, next) {
+    res.render(
+      username + '/another', 
+      {
+         title: 'Ryan Clark' + '\'s Second Page',
+         username: username
+      });
+  });
   // Set up additional routes here
 };
