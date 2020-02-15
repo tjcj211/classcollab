@@ -9,4 +9,3 @@ module.exports = function(router, username) {
   });
 
   // Set up additional routes here
-};
