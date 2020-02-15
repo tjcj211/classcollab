@@ -1,1 +1,10 @@
-/* Put any user-specific styles here */
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornsilk; 
+    color: darkblue;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
