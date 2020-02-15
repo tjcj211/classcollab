@@ -2,4 +2,20 @@ extends layout
 
 block subcontent
   h1= title
-  p Welcome to #{title}
+  p Click either of the links below to learn a little something about me :)
+
+  p
+     | Link to
+     a(href='/mforster/page2') The Wonder World of Yarn Craft!
+    P
+
+     p
+     | Link to
+     a(href='/mforster/page3') My Future Zoo!
+     P
+
+     p Otherwise please enjoy the song I can't get out of my head
+
+     <audio controls>
+     <source src="/images/mforster/song.mp3" type="audio/mpeg">
+     </audio>
