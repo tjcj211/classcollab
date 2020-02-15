@@ -9,4 +9,13 @@ module.exports = function(router, username) {
   });
 
   // Set up additional routes here
+  router.get('/asazhin/page2', function(req, res, next) {
+    res.render(
+      username + '/page2', 
+      {
+         title: username + '\'s Second Page',
+         username: username
+      });
+  });
+
 };
