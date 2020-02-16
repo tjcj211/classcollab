@@ -1,1 +1,19 @@
 /* Put any user-specific styles here */
+/* Put any user-specific styles here */
+
+p {
+    font-size: 150%;
+    color: white;
+    font-family: "Times New Roman";
+}
+body {
+
+    font-family: "Times New Roman";
+    color: #00B7FF;
+    font-size: medium;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-size: 1000px;*/
+    background-position: center;
+    background-image: url(https://img.cinemablend.com/filter:scale/quill/3/0/8/e/b/d/308ebdff0696ffc63aed7f0a73b96bbf0fad18d9.jpg?mw=600);
+}
