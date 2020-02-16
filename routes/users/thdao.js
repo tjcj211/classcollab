@@ -3,10 +3,19 @@ module.exports = function(router, username) {
     res.render(
       username + '/base', 
       {
-         title: username + '\'s Special Page',
+         title: 'Welcome to my Personal Page!',
          username: username
       });
   });
 
   // Set up additional routes here
+  router.get('/thdao/stock', function (req, res, next) {
+    res.render(
+      username + '/stock',
+      {
+        title: 'Learn About Stocks!',
+        username: username
+      });
+  });
+
 };
