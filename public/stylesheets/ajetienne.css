@@ -1,1 +1,26 @@
 /* Put any user-specific styles here */
+body{
+    padding: 50px;
+    font: 16px "Courier", Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: lightpink;
+    border-style: dashed;
+    border-color: lightyellow;
+    border-radius: 5ch;
+}
+
+a {
+    color: lightyellow
+}
+
+
+
+#footer {
+    background-color: lightyellow;
+    font: white;
+    text-align: center;
+    border-radius: 3ch;
+    border-style: double;
+    border-color: lightskyblue;
+    padding-top:10px ;
+}
