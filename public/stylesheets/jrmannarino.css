@@ -1,1 +1,17 @@
 /* Put any user-specific styles here */
+body {
+    Color: white;
+  background-size: cover;
+  background-position: top;
+  background-image:url(https://images.wallpaperscraft.com/image/night_sky_stars_starry_sky_118036_3840x2400.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  
+}
+h1 {
+    color:rgb(252, 136, 4);
+}
+a {
+    Color: rgb(252, 136, 4);
+}
