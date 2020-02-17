@@ -8,5 +8,15 @@ module.exports = function(router, username) {
       });
   });
 
-  // Set up additional routes here
+  // Contact page
+  router.get('/tacouto/pagetwo', function(req, res, next) {
+    res.render(
+      username + '/pagetwo', 
+      {
+         title: username + '\'s Second Page',
+         username: username
+      });
+  });
+
 };
+
