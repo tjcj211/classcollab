@@ -4,6 +4,7 @@ var router = express.Router();
 var users = [
   'jktest', 'jktest2',
   //'jcbryce', 'hcbyrd', 'macallahan1', 'rmclark', 'tacouto', 'thdao', 'tddegennaro', 'hdominique', 'jeduffy', 'ajetienne', 'mforster', 'jmgaliano', 'gagreco', 'rhanif', 'jrmannarino', 'amartin1', 'jepassanante', 'rpetrosino', 'asazhin', 'jzemlanicky'
+  'laatkinson', 'mbadalamente', 'tjcarta', 'cacooper', 'hadewhurst', 'cjflores1', 'agil', 'rmhayes', 'srippolito', 'dnirwin', 'hketsela', 'amills1', 'naorekhov', 'hrajan', 'ajsanteramo', 'bcsullivan', 'ndvazquez', 'jrwilkinson'
 ];
 users.sort();
 
