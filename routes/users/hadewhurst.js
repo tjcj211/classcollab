@@ -8,5 +8,12 @@ module.exports = function(router, username) {
       });
   });
 
-  // Set up additional routes here
+  router.get('/hadewhurst/secondPage', function(req,res,next){
+    res.render(
+      username + '/secondPage',
+      {
+        title: username + '\'s Second Page',
+        username: username
+      });
+    });
 };
