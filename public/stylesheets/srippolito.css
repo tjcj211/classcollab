@@ -1,1 +1,31 @@
-/* Put any user-specific styles here */
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+  
+  #header {
+    background-color: lightblue;
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+  }
+  
+  #footer {
+    background-color: lightpink;
+    color: darkred;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+  }
+  
+  p {
+  color: forestgreen;
+  font-family: Georgia;
+  font-size: 16px;
+  }
