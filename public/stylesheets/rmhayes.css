@@ -1,1 +1,6 @@
 /* Put any user-specific styles here */
+body {
+  background-color: rgb(5, 5, 85);
+  color: gold;
+  text-align: center;
+}
