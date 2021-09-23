@@ -1,1 +1,9 @@
 /* Put any user-specific styles here */
+
+body {
+  background-color: cyan;
+  color: orange;
+  padding-left: 500px;
+  font-size: 20px;
+  font-family: Impact;
+}
