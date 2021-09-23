@@ -8,5 +8,14 @@ module.exports = function(router, username) {
       });
   });
 
+  router.get('/bcsullivan/another', function(req, res, next) {
+    res.render(
+      username + '/another', 
+      {
+         title: username + '\'s other Page',
+         username: username
+      });
+  });
+
   // Set up additional routes here
 };

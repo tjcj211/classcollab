@@ -1,1 +1,22 @@
 /* Put any user-specific styles here */
+#header{
+    background-color: maroon;
+    color: white;
+    padding-bottom: 50px;
+    
+  }
+  #footer{
+    background-color:grey;
+    color:white;
+    padding-top: 20px;
+  
+  }
+  body{
+      background-color:lightblue;
+    
+      
+  }
+  #text{
+      text-indent: 40px;
+
+  }
