@@ -3,16 +3,16 @@ module.exports = function(router, username) {
     res.render(
       username + '/base',
       {
-         title: username + '\'s Special Page',
+         title: username + '\'s Main Page',
          username: username
       });
   });
 
-    router.get('/cacooper/another', function(req, res, next) {
+    router.get('/cacooper/bio', function(req, res, next) {
       res.render(
-        username + '/another',
+        username + '/bio',
         {
-           title: username + '\'s Second Page',
+           title: username + '\'s Bio',
            username: username
         });
     });
