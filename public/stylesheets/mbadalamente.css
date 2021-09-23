@@ -4,5 +4,8 @@ body
 {
     background-color: burlywood;
     color:darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-style: italic;
     
 }
