@@ -1,7 +1,17 @@
-extends ../layout
+//- extends ../layout
 
-block append head
-    link(rel='stylesheet', href='/stylesheets/' + username + '.css')
+//- block append head
+//-     link(rel='stylesheet', href='/stylesheets/' + username + '.css')
 
-block content
+//- block content
+//-     block subcontent
+
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/' + username + '.css')  
+  body
+    div#header #{title}
     block subcontent
+    div#footer Dev Ops Is Fun
