@@ -4,4 +4,13 @@ block append head
     link(rel='stylesheet', href='/stylesheets/' + username + '.css')
 
 block content
+    div#header Tabs
+
+        div#text 
+            a(href='/') Home &nbsp &nbsp &nbsp &nbsp 
+            a(href= '/'+username) Bryans Home page &nbsp &nbsp&nbsp &nbsp 
+            a(href= username+'/another') Personal Page
     block subcontent
+    
+        p Welcome to my page. I am a senior at Quinnipiac Univercity.
+    div#footer Created by Bryan Sullivan 
