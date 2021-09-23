@@ -3,10 +3,16 @@ module.exports = function(router, username) {
     res.render(
       username + '/base', 
       {
-         title: username + '\'s Special Page',
+         title: 'Henok Ketsela\'s Home page',
          username: username
       });
   });
 
   // Set up additional routes here
+  router.get('/hketsela/secondpage', function (req, res, next) {
+    res.render(username + '/secondpage', {
+      title: 'Second Page',
+      username: username,
+     });
+  });
 };
