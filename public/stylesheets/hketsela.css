@@ -1,1 +1,22 @@
 /* Put any user-specific styles here */
+body {
+    background-color: lightyellow;
+    padding: 50px;
+    color: purple;
+    font: 14px "Chalkboard", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+#header {
+    background-color: yellow;
+    fontcolor: darkgrey;
+    padding-bottom: 20px;
+}
+#footer {
+    background-color: lightcoral;
+    fontcolor: white;
+    padding-top: 20px;
+}
