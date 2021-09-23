@@ -1,1 +1,7 @@
 /* Put any user-specific styles here */
+body
+{
+  background-color: darkblue;
+  color: white;
+  padding-left: 200px;
+}
