@@ -9,8 +9,8 @@ module.exports = function(router, username) {
   });
 
   // Set up additional routes here
-  router.get('/hketsela/secondpage', function (req, res, next) {
-    res.render(username + '/secondpage', {
+  router.get('/hketsela/secondPage', function (req, res, next) {
+    res.render(username + '/secondPage', {
       title: 'Second Page',
       username: username,
      });
