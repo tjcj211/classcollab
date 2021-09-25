@@ -1,1 +1,6 @@
 /* Put any user-specific styles here */
+body
+{
+  background-color: #16A0A1;
+  color: #e31c26;
+}
